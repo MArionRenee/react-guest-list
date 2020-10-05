@@ -24,6 +24,7 @@ function App() {
   const [firstname, setFirstName] = React.useState('');
   const [lastname, setLastName] = React.useState('');
 
+  //eslint-disable-next-line no-unused-vars
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
@@ -38,6 +39,7 @@ function App() {
           lastName: lastname,
         }),
       });
+      //eslint-disable-next-line no-unused-vars
       const createdGuest = await response.json();
 
       window.location.reload(false);
@@ -58,6 +60,7 @@ function App() {
           method: 'DELETE',
         },
       );
+      //eslint-disable-next-line no-unused-vars
       const deletedGuest = await response.json();
 
       window.location.reload(false);
@@ -77,6 +80,7 @@ function App() {
           body: JSON.stringify({ attending: true }),
         },
       );
+      //eslint-disable-next-line no-unused-vars
       const editGuest = await response.json();
 
       window.location.reload(false);
