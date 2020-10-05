@@ -1,0 +1,80 @@
+* {
+  /* background: url(https://images.pexels.com/photos/796607/pexels-photo-796607.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260); */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  color: #ff4900;
+  margin: 100px 0px 0px 0px;
+  font-size: 40px;
+}
+
+h2 {
+  text-align: center;
+  color: #ff4900;
+  margin: 100px 0px 0px 0px;
+  font-size: 30px;
+}
+
+body {
+  background-color: #f5b638;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  margin: 0px 0px 0px 0px;
+}
+.App {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  font-size: 80%;
+  margin: 0px 20px 20px 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+table,
+td {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+input {
+  font-size: 100%;
+}
+
+button {
+  background-color: #047fed;
+  border: none;
+  color: white;
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 8px;
+  cursor: pointer;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+button:hover {
+  transition: ease-in 0.5s;
+  background-color: #1306bf;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  background-color: #f5b638;
+  margin: 50px 0px 0px 0px;
+}
